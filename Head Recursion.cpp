@@ -3,10 +3,9 @@ using namespace std;
 
 void fun(int n){
     if(n>0){
-        // cout<<n;    //head 
+       
         fun(n-1);
-        cout<<n;        // tail
-
+        cout<<n;       
     }
 }
 int main() {
